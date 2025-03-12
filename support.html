@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - BT Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid #ddd;
+            padding: 1rem;
+        }
+        nav {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #666;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        nav a:hover {
+            color: #000;
+        }
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .support-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .support-item {
+            padding: 1rem;
+            border: 1px solid #ddd;
+        }
+        footer {
+            border-top: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="/" style="font-weight: bold;">BT Store</a>
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/support.html">Support</a>
+            </div>
+            <button onclick="alert('Cart functionality would be implemented here')" style="background: none; border: none; cursor: pointer;">
+                🛒 Cart
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Support Center</h1>
+        
+        <div class="support-grid">
+            <div class="support-item">
+                <h2>FAQs</h2>
+                <p>Find answers to commonly asked questions about our products and services.</p>
+            </div>
+
+            <div class="support-item">
+                <h2>Documentation</h2>
+                <p>Access user manuals, guides, and technical documentation.</p>
+            </div>
+
+            <div class="support-item">
+                <h2>Live Chat</h2>
+                <p>Chat with our support team for immediate assistance.</p>
+            </div>
+
+            <div class="support-item">
+                <h2>Technical Support</h2>
+                <p>Get expert technical support for complex issues.</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #ddd;">
+            <h2>Need Additional Help?</h2>
+            <p>Our support team is available 24/7 to assist you with any questions or concerns.</p>
+            <button onclick="window.location.href='/contact.html'" style="background-color: #2563eb; color: white; border: none; padding: 0.5rem 1rem; cursor: pointer;">
+                Contact Support
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 Isaac Etokhana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
