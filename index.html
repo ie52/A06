@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT Store - Bluetooth Transmitter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid #ddd;
+            padding: 1rem;
+        }
+        nav {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #666;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        nav a:hover {
+            color: #000;
+        }
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .product-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+        .add-to-cart {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+        .features {
+            margin: 2rem 0;
+        }
+        .specs {
+            border-top: 1px solid #ddd;
+        }
+        .spec-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+        footer {
+            border-top: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="/" style="font-weight: bold;">BT Store</a>
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/support.html">Support</a>
+            </div>
+            <button onclick="alert('Cart functionality would be implemented here')" style="background: none; border: none; cursor: pointer;">
+                🛒 Cart
+            </button>
+        </nav>
+    </header>
 
+    <main>
+        <img src="https://m.media-amazon.com/images/I/61UoAe25KfL._AC_UF894,1000_QL80_.jpg" alt="Bluetooth Transmitter" class="product-image">
+        
+        <h1>Bluetooth Transmitter 5.0</h1>
+        <p>Experience crystal-clear audio transmission with our advanced Bluetooth 5.0 transmitter. Perfect for home entertainment systems, car stereos, and professional audio setups.</p>
+        
+        <div class="price">$49.99</div>
+        <button class="add-to-cart" onclick="alert('Added to cart!')">Add to Cart</button>
+
+        <div class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Bluetooth 5.0 technology</li>
+                <li>Low latency audio transmission</li>
+                <li>30-meter range</li>
+                <li>Dual device connectivity</li>
+                <li>24-hour battery life</li>
+                <li>USB-C charging</li>
+                <li>Digital LED display</li>
+            </ul>
+        </div>
+
+        <div class="specs">
+            <h2>Specifications</h2>
+            <div class="spec-row">
+                <span>Bluetooth Version</span>
+                <span>5.0</span>
+            </div>
+            <div class="spec-row">
+                <span>Range</span>
+                <span>30 meters</span>
+            </div>
+            <div class="spec-row">
+                <span>Battery Life</span>
+                <span>24 hours</span>
+            </div>
+            <div class="spec-row">
+                <span>Charging Time</span>
+                <span>2 hours</span>
+            </div>
+            <div class="spec-row">
+                <span>Input</span>
+                <span>3.5mm AUX, Optical, RCA</span>
+            </div>
+            <div class="spec-row">
+                <span>Dimensions</span>
+                <span>8.5 x 4.2 x 1.8 cm</span>
+            </div>
+            <div class="spec-row">
+                <span>Weight</span>
+                <span>45g</span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 Isaac Etokhana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
