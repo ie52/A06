@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BT Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid #ddd;
+            padding: 1rem;
+        }
+        nav {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #666;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+        nav a:hover {
+            color: #000;
+        }
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .contact-form {
+            margin-top: 2rem;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+        footer {
+            border-top: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="/" style="font-weight: bold;">BT Store</a>
+                <a href="/">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/contact.html">Contact</a>
+                <a href="/support.html">Support</a>
+            </div>
+            <button onclick="alert('Cart functionality would be implemented here')" style="background: none; border: none; cursor: pointer;">
+                🛒 Cart
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+
+        <div class="contact-info">
+            <p>📧 Email: support@btstore.com</p>
+            <p>📞 Phone: 1-800-BT-STORE</p>
+            <p>📍 Address: 123 Audio Lane, Sound City, 12345</p>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent!');">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 Isaac Etokhana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
